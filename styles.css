@@ -133,5 +133,30 @@ body {
     margin: 0;
     text-align: center;
     color: #1f2937
+}
 
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    width: 100%;
+}
+.quote-container {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 50px;
+}
+.quote-section--quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.quote-section--author {
+    font-weight: 900;
+    align-self: flex-end;
 }
