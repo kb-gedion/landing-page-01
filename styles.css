@@ -97,6 +97,11 @@ body {
 .information {
     width: 100%;
     display: flex;
+    justify-content: center;
+}
+.information-container {
+    width: 900px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
